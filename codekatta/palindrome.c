@@ -12,8 +12,8 @@ int main()
         temp=temp/10;
     }
     if(a==c)
-    printf("%d is a palidrome",a);
+    printf("Yes %d is a palidrome",a);
     else
-    printf("%d is not a palindrome",a);
+    printf("No %d is not a palindrome",a);
     return 0;
 }
