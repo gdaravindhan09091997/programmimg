@@ -12,9 +12,9 @@ sum=sum+r*r*r;
 a=a/10;
 	}
 	if(temp==sum)
-	printf("%d is an armstrong number\n",temp);
+	printf("Yes %d is an armstrong number\n",temp);
 	else
-	printf("%d is not an armstrong number",temp);
+	printf("No %d is not an armstrong number",temp);
 	return 0;
 	
 }
