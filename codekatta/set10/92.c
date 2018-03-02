@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-	int i,a,b[100],sum=0;
+	int i,m,n[100],sum=0;
 	printf("Enter the limit\n");
-	scanf("%d",&a);
-	for(i=0;i<a;i++)
+	scanf("%d",&m);
+	for(i=0;i<m;i++)
 	{
-		scanf("%d",&b[i]);
-			printf("%d\n",b[i]);
+		scanf("%d",&n[i]);
+			printf("%d\n",n[i]);
 	}
-	for(i=0;i<a;i++)
+	for(i=0;i<m;i++)
 	{
-		sum=sum+b[i];
+		sum=sum+n[i];
 	}
 printf("%d",sum);
 
